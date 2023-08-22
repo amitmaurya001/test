@@ -1,4 +1,4 @@
-<mxfile modified="2023-08-22T08:11:47.325Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="sRQLIhULXgKS7gl1QF8S" version="21.6.8" type="github">
+<mxfile modified="2023-08-22T08:21:39.954Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="-gySBNj-V0Jgiy4QEweG" version="21.6.8" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="2019" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -498,7 +498,7 @@
           <mxGeometry x="824" y="470" width="106" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bOCi2ubxmbnxknkTj1Zq-266" value="Lamda converts read&amp;nbsp; values&amp;nbsp; to txt format and stores the file to be consumed by 3rd party APIs" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="UEzPUAAOIrF-is8g5C7q-74">
-          <mxGeometry x="829" y="214.95" width="106" height="30" as="geometry" />
+          <mxGeometry x="824" y="214.95" width="106" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bOCi2ubxmbnxknkTj1Zq-272" value="Eventbridge" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="UEzPUAAOIrF-is8g5C7q-74">
           <mxGeometry x="897" y="315" width="106" height="30" as="geometry" />
@@ -544,6 +544,18 @@
         </mxCell>
         <mxCell id="bOCi2ubxmbnxknkTj1Zq-306" value="Daily 1 AM Lamda fn is triggered" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="UEzPUAAOIrF-is8g5C7q-74">
           <mxGeometry x="840" y="268.47" width="51" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bOCi2ubxmbnxknkTj1Zq-318" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=openThin;elbow=vertical;startArrow=none;endFill=0;strokeColor=#545B64;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="UEzPUAAOIrF-is8g5C7q-74" source="bOCi2ubxmbnxknkTj1Zq-99">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="890" y="174.95" as="sourcePoint" />
+            <mxPoint x="990" y="174.95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bOCi2ubxmbnxknkTj1Zq-319" value="Bulk Email Send" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="UEzPUAAOIrF-is8g5C7q-74">
+          <mxGeometry x="858" y="144.95" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bOCi2ubxmbnxknkTj1Zq-320" value="SES" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="UEzPUAAOIrF-is8g5C7q-74">
+          <mxGeometry x="957" y="202.48" width="106" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bOCi2ubxmbnxknkTj1Zq-242" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bOCi2ubxmbnxknkTj1Zq-234" target="bOCi2ubxmbnxknkTj1Zq-3">
           <mxGeometry relative="1" as="geometry">
